@@ -8,10 +8,10 @@ CORS(app)  # Enable CORS for cross-origin requests
 
 # Database connection
 db = mysql.connector.connect(
-    host="your-db-host",
-    user="your-db-user",
-    password="your-db-password",
-    database="your-database"
+    host="34.70.123.199",
+    user="wixuser",
+    password="Emceelit1!",
+    database="wix_data"
 )
 
 @app.route("/search", methods=["GET"])
